@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 import Login from "../pages/login";
-import Homepage from "../pages/homepage";
-import CheckOut from "../pages/checkout";
+import Homepage from "../pages/home-page";
+import CheckOut from "../pages/check-out";
 
 test("login", async ({ page }) => {
   // Login
@@ -15,5 +15,5 @@ test("login", async ({ page }) => {
 
   // Checkout item
   const checkOut = new CheckOut(page);
-  await checkOut.checkOutItem("Junad", "Khan", "54000");
+  await checkOut.checkOutItem("Junaid", "Khan", "54000");
 });
