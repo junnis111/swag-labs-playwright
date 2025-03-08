@@ -1,31 +1,30 @@
-# 🏆 Swag-Labs Playwright Automation Suite
+### **🏆 Swag-Labs Playwright Automation Suite**
 
-This repository contains **end-to-end (E2E) UI test automation scripts** using Playwright for the Swag Labs website. It covers login, adding items to the cart, and checkout functionalities using the **Page Object Model (POM)**.
-
----
-
-## 📌 Project Overview
-
-This project automates web UI testing using Playwright, ensuring smooth user interactions and interface validation. The test suite is designed for **cross-browser testing**, modularity with POM, and efficient test execution.
+This repository contains end-to-end (E2E) UI test automation scripts using Playwright for the Swag Labs website. It covers login, adding items to the cart, and checkout functionalities using the Page Object Model (POM).
 
 ---
 
-## 🚀 Features
+## 📌 **Project Overview**
 
-✔ Cross-Browser Testing (Chromium, Firefox, WebKit)
-✔ Page Object Model (POM) for Maintainability
-✔ Automated Login & Authentication Testing
-✔ Adding Items to Cart & Checkout Automation
-✔ Headless & Headed Execution Modes
+This project automates web UI testing using Playwright, ensuring smooth user interactions and interface validation. The test suite is designed for cross-browser testing, modularity with POM, and efficient test execution.
+
+---
+
+## 🚀 **Features**
+
+✔ Cross-Browser Testing (Chromium, Firefox, WebKit)  
+✔ Page Object Model (POM) for Maintainability  
+✔ Automated Login & Authentication Testing  
+✔ Adding Items to Cart & Checkout Automation  
+✔ Headless & Headed Execution Modes  
 ✔ Easy-to-Read Assertions with Playwright Test Runner
 
 ---
 
-## 📚 Project Structure
-
-📦 **Swag-Labs-Playwright**
+## 📚 **Project Structure**
 
 ```
+📦 Swag-Labs-Playwright
 📂 tests/
  ┣ 📂 swag-labs/
  ┃ ┣ swag-lab.spec.js
@@ -43,7 +42,31 @@ This project automates web UI testing using Playwright, ensuring smooth user int
 
 ---
 
-## 🛠️ Installation & Setup
+## 📑 **Test Documentation**
+
+This project includes comprehensive test documentation to ensure **test coverage, defect tracking, and structured test planning**.
+
+### 📂 **Available Test Documents**
+
+📋 **[Test Plan](swag-labs-test-plan.docx)** – Defines the testing scope, strategy, schedule, and deliverables.  
+📝 **[Test Cases](swag-labs-test-cases.xlsx)** – Contains detailed manual and automated test cases.  
+🐞 **[Bug Report](swag-lab-bugs-report.xlsx)** – Logs defects found during testing with severity and priority.
+
+### **📂 How to Access**
+
+After cloning the repository, you can find these files in the root directory:
+
+```sh
+swag-lab-bugs-report.xlsx
+swag-labs-test-cases.xlsx
+swag-labs-test-plan.docx
+```
+
+You can open them using **Microsoft Excel (for .xlsx) and Microsoft Word (for .docx).**
+
+---
+
+## 🛠️ **Installation & Setup**
 
 ### **1️⃣ Install Playwright**
 
@@ -69,7 +92,7 @@ npm install
 
 ---
 
-## 🎯 Running Tests
+## 🎯 **Running Tests**
 
 ### **Run All Tests in Headless Mode**
 
@@ -103,7 +126,7 @@ npx playwright show-report
 
 ---
 
-## 💪 Contributing
+## 💪 **Contributing**
 
 🚀 Want to improve this project? Contributions are welcome!
 
@@ -114,6 +137,16 @@ npx playwright show-report
 
 ---
 
-## 📞 Support
+## 📞 **Support**
 
-📧 Email: [junnis111@gmail.com](mailto:junnis111@gmail.com)
+📧 **Email:** junnis111@gmail.com
+
+---
+
+### ✅ **What’s Updated?**
+
+- **Test Documentation Section Added** 📑
+- **Direct links to Test Plan, Test Cases, and Bug Report**
+- **Clear instructions on how to access test documents**
+
+Would you like me to format your **test cases and bug report for better readability in GitHub**? 🚀😊
