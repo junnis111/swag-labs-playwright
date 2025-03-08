@@ -1,3 +1,5 @@
+const { expect } = require("@playwright/test");
+
 class Homepage {
   constructor(page) {
     this.page = page;
@@ -15,6 +17,7 @@ class Homepage {
       }
     }
     await this.page.locator(this.addToCartBtn).click();
+    await expect(this.page.locator(this.selectCart)).toHaveText("1");
     await this.page.locator(this.selectCart).click();
   }
 }

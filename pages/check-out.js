@@ -1,3 +1,5 @@
+const { expect } = require("@playwright/test");
+
 class CheckOut {
   constructor(page) {
     this.page = page;
@@ -8,6 +10,7 @@ class CheckOut {
     this.continueBtn = "#continue";
     this.finishBtn = "#finish";
     this.backHomeBtn = "#back-to-products";
+    this.checkOutComplete = ".complete-header";
   }
   async checkOutItem(firstname, lastname, postalcode) {
     await this.page.locator(this.checkOutBtn).click();
@@ -16,6 +19,9 @@ class CheckOut {
     await this.page.locator(this.postalcode).fill(postalcode);
     await this.page.locator(this.continueBtn).click();
     await this.page.locator(this.finishBtn).click();
+    await expect(this.page.locator(this.checkOutComplete)).toHaveText(
+      "Thank you for your order!"
+    );
     await this.page.locator(this.backHomeBtn).click();
   }
 }
