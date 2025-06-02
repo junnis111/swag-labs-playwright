@@ -148,5 +148,3 @@ npx playwright show-report
 - **Test Documentation Section Added** 📑
 - **Direct links to Test Plan, Test Cases, and Bug Report**
 - **Clear instructions on how to access test documents**
-
-Would you like me to format your **test cases and bug report for better readability in GitHub**? 🚀😊
